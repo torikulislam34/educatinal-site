@@ -1,6 +1,6 @@
 ### Live link: https://react-route-education-center.netlify.app/
 
-* Name: Programing Education Center.
+### Name: Programing Education Center.
 
 * Python, data structures, and algorithms Database fundamentals using PostgreSQL The math and architecture of computer science.
 
