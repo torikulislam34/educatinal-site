@@ -1,0 +1,32 @@
+.banner {
+    background-image: url("https://www.propatel.com/wp-content/uploads/2019/09/coding-and-testing-programming-of-software.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    color: rgb(252, 194, 6);
+    font-weight:bold;
+    font-size: 40px;
+  }
+  .about-btn {
+    background-color: #ff0505;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 17px 34px;
+    color: white;
+  }
+  .sm-image{
+      height: 300px;
+      width: 70%;
+      margin-left: 40px;
+      border: 1px solid springgreen;
+      border-radius: 10px;
+  }

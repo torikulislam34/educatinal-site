@@ -1,0 +1,31 @@
+.MenuBar-container{
+    background-color: black;
+    line-height: 50px;
+}
+.items {
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: none;
+  }
+  .items:hover {
+    color: rgb(221, 5, 5);
+  }
+  .items1{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(218, 214, 214);
+    cursor: pointer;
+    padding: 5px;
+    text-transform: none;
+  }
+  .items1:hover {
+    color: rgb(221, 189, 5);
+  }
