@@ -15,7 +15,7 @@ function App() {
       <Menuber></Menuber>
       
       <Switch>
-       <Route path='/Home'>
+       <Route path='/'>
         <Home></Home>
        </Route>
        <Route path='/Services'>
