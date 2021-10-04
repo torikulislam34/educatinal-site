@@ -8,7 +8,7 @@ const About = () => {
             </div>
             <div className="half-with col-md-6">
                 <h1 className='heading'>Computer Science Career Path</h1>
-                <p>This new Path is designed with students in mind. Get a strong foundation in all the skills and languages that are typically taught in a 4-year college CS degree. In addition to learning the abstract concepts that are fundamental to all of programming, you’ll also get hands-on experience that will help you problem-solve like a real programmer.</p>
+                <p className='text-start'>This new Path is designed with students in mind. Get a strong foundation in all the skills and languages that are typically taught in a 4-year college CS degree. In addition to learning the abstract concepts that are fundamental to all of programming, you’ll also get hands-on experience that will help you problem-solve like a real programmer.</p>
 
                 <ul className='list-item'>
                     <p className='sm-heading'>You’ll learn:</p>

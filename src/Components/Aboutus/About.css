@@ -1,3 +1,10 @@
+.about-container{
+    padding: 50px;
+}
+.half-with img{
+    border-radius: 10px;
+    margin-right: 15px;
+}
 .heading{
     color: rgb(2, 2, 102);
 }
