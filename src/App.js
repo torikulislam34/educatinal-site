@@ -7,6 +7,7 @@ import Aboutus from './Components/Aboutus/Aboutus';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 import Notfound from './Components/Notfound/Notfound';
+import Deatils from './Components/Deatils/Deatils';
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
       <Menuber></Menuber>
       
       <Switch>
-       <Route path='/'>
+      <Route path='/Home'>
+        <Home></Home>
+       </Route>
+       <Route exact path='/'>
         <Home></Home>
        </Route>
        <Route path='/Services'>
@@ -23,6 +27,9 @@ function App() {
        </Route>
        <Route path='/Aboutus'>
          <Aboutus></Aboutus>
+       </Route> 
+       <Route path='/Deatils'>
+         <Deatils></Deatils>
        </Route>
        <Route path='/Contact'>
          <Contact></Contact>

@@ -11,11 +11,12 @@ const Survice = () => {
     
     return (
         <div className='courses'>
+            <h1>Our Sevices</h1>
             <div className='row'>
              {
                  courses.map(course =>
                          (
-                         <div className='col-md-4'>
+                         <div className='col-md-4 cart-container'>
                              <div className="cart">
                                  <div className="image">
                                      <img src={course.img} alt="" />

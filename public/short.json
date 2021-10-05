@@ -1,0 +1,29 @@
+[
+    {
+        "id": 8,
+        "title": "Software Development with Python and Java: Introducing Java",
+        "price": 27,
+        "img": "https://ugc.futurelearn.com/uploads/images/bf/0f/thumbnail_bf0fb15a-0d63-4486-9cba-d0a81a303e74.jpg",
+        "owner": "Future Learn",
+        "category": "softwere Development",
+        "dis": "Explore how Java can help support your software development career and learn its basic uses and functions."
+      },
+      {
+        "id": 9,
+        "title": "Artificial Intelligence: Distinguishing Between Fact and Fiction",
+        "price": 30,
+        "img": "https://ugc.futurelearn.com/uploads/images/5c/07/thumbnail_5c07c9d5-093d-4d22-8a84-5b4991324905.jpg",
+        "owner": "Conventery University & Institute Of Coding",
+        "category": "Artificial Intelligence",
+        "dis": "How well do you understand artificial intelligence (AI)? Explore how to separate the reality from the hype on this course."
+      },
+    {
+      "id": 1,
+      "title": "Introduction To web Development",
+      "price": 20,
+      "img": "https://ugc.futurelearn.com/uploads/images/00/a9/thumbnail_00a9559c-83c3-487d-bf96-c0732521ee2c.jpg",
+      "owner": "Raspberry Pi Foundation",
+      "category": "Web Development",
+      "dis": "Discover web development and learn to build your own interactive websites using HTML, CSS, and JavaScript. Supported by Google."
+    }
+]    

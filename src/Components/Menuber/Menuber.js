@@ -1,8 +1,12 @@
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './Menuber.css'
 const Menuber = () => {
-
+  const activeStyle = {
+      fontWeight: 'bold',
+      color: 'skyblue',
+      // textDecoration: '1px solid skyblue'
+  }
   return (
     <div className="MenuBar-container">
       <div className="container">
@@ -15,18 +19,21 @@ const Menuber = () => {
           <div className="col-md-9">
             <div className="menu-container ">
               <ul className="d-flex align-items-end justify-content-end">
-                  <Link to="/Home" className='items'>
+                  <NavLink activeStyle={activeStyle} to="/Home" className='items'>
                   <li>Home</li>
-                  </Link>
-                  <Link to="/services" className='items'>
+                  </NavLink>
+                  <NavLink activeStyle={activeStyle} to="/services" className='items'>
                   <li>Services</li>
-                  </Link>
-                  <Link to="/Aboutus" className='items'>
+                  </NavLink>
+                  <NavLink activeStyle={activeStyle} to="/Aboutus" className='items'>
                   <li>About us</li>
-                  </Link>
-                  <Link to="/Contact" className='items'>
+                  </NavLink>
+                  <NavLink activeStyle={activeStyle} to="/Deatils" className='items'>
+                  <li>Deatils</li>
+                  </NavLink>
+                  <NavLink activeStyle={activeStyle} to="/Contact" className='items'>
                   <li>Contact</li>
-                  </Link>
+                  </NavLink>
               </ul>
             </div>
           </div>
